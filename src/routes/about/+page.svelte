@@ -1,9 +1,13 @@
 <script>
-    // your script goes here
+import TestComponent from "../../component/TestComponent.svelte";
+
+const num = "1";
 </script>
 
 <div>
-    aboutページです
+    <h1>aboutページです</h1>
+    <TestComponent />
+    {num}
 </div>
 
 <style>
